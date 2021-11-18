@@ -10,7 +10,7 @@ async function fetchnewapi() {
         productElPost.innerHTML+=`<div class="col-sm-3 space" >
         <div class="card">
           <img
-            src="https://images.ctfassets.net/u4vv676b8z52/7gDQHxOn1ciYucQl4txQdF/1c5a463ff509944441a64b8d975d90dc/Hero_Article_MensEyeglasses-Most-Durable-compressor.jpg?fm=jpg&q=80"
+            src="${val[0]}"
             class="card-img-top"
             alt="..."
           />
