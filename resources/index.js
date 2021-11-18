@@ -12,6 +12,7 @@ async function fetchnewapi() {
           <img
             src="${val['images'][0]}"
             class="card-img-top"
+            height="350px"
             alt="..."
           />
           <div class="card-body">
