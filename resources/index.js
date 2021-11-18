@@ -10,7 +10,7 @@ async function fetchnewapi() {
         productElPost.innerHTML+=`<div class="col-sm-3 space" >
         <div class="card">
           <img
-            src="${val[0]}"
+            src="${val['images'][0]}"
             class="card-img-top"
             alt="..."
           />
