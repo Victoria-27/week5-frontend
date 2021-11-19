@@ -16,8 +16,8 @@ async function fetchnewapi() {
             alt="..."
           />
           <div class="card-body">
-            <p class="card-title">Victoria's secret Sun Glasses</p>
-            <p class="card-text"><strong>$</strong> 50,000</p>
+            <p class="card-title">${val['productDescription']}</p>
+            <p class="card-text"><strong>$</strong>${val['price']}</p>
             <a href="#!" class="btn btn-warning d-grid">Add Cart</a>
             <a href="checkout.html" class="btn btn-success d-grid btn-color"
               >checkout</a
